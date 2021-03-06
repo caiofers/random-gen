@@ -22,7 +22,7 @@ class ViewController: UIViewController {
     }
     
     func randomNumber(MIN: Int, MAX: Int)-> Int{
-        return Int(arc4random_uniform(UInt32(MAX-MIN)) + UInt32(MIN));
+        return Int(arc4random_uniform(UInt32((MAX+1)-MIN)) + UInt32(MIN));
     }
 
 }
