@@ -13,6 +13,9 @@
 		DF77AAB525F40D8600EF8E59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF77AAB325F40D8600EF8E59 /* Main.storyboard */; };
 		DF77AAB725F40D8700EF8E59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF77AAB625F40D8700EF8E59 /* Assets.xcassets */; };
 		DF77AABA25F40D8700EF8E59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF77AAB825F40D8700EF8E59 /* LaunchScreen.storyboard */; };
+		DF77AAC625F410C000EF8E59 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = DF77AAC325F410C000EF8E59 /* logo.png */; };
+		DF77AAC725F410C000EF8E59 /* botaogerar-pressionado.png in Resources */ = {isa = PBXBuildFile; fileRef = DF77AAC425F410C000EF8E59 /* botaogerar-pressionado.png */; };
+		DF77AAC825F410C000EF8E59 /* botaogerar.png in Resources */ = {isa = PBXBuildFile; fileRef = DF77AAC525F410C000EF8E59 /* botaogerar.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		DF77AAB625F40D8700EF8E59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF77AAB925F40D8700EF8E59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF77AABB25F40D8700EF8E59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF77AAC325F410C000EF8E59 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		DF77AAC425F410C000EF8E59 /* botaogerar-pressionado.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "botaogerar-pressionado.png"; sourceTree = "<group>"; };
+		DF77AAC525F410C000EF8E59 /* botaogerar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = botaogerar.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				DF77AAAD25F40D8600EF8E59 /* AppDelegate.swift */,
+				DF77AACA25F410CF00EF8E59 /* img */,
 				DF77AAAF25F40D8600EF8E59 /* SceneDelegate.swift */,
 				DF77AAB125F40D8600EF8E59 /* ViewController.swift */,
 				DF77AAB325F40D8600EF8E59 /* Main.storyboard */,
@@ -65,6 +72,16 @@
 				DF77AABB25F40D8700EF8E59 /* Info.plist */,
 			);
 			path = "Gerador Randômico";
+			sourceTree = "<group>";
+		};
+		DF77AACA25F410CF00EF8E59 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				DF77AAC425F410C000EF8E59 /* botaogerar-pressionado.png */,
+				DF77AAC525F410C000EF8E59 /* botaogerar.png */,
+				DF77AAC325F410C000EF8E59 /* logo.png */,
+			);
+			path = img;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,9 +141,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF77AAC625F410C000EF8E59 /* logo.png in Resources */,
+				DF77AAC825F410C000EF8E59 /* botaogerar.png in Resources */,
 				DF77AABA25F40D8700EF8E59 /* LaunchScreen.storyboard in Resources */,
 				DF77AAB725F40D8700EF8E59 /* Assets.xcassets in Resources */,
 				DF77AAB525F40D8600EF8E59 /* Main.storyboard in Resources */,
+				DF77AAC725F410C000EF8E59 /* botaogerar-pressionado.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,7 +313,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "caio.teste.Gerador-Rando-mico";
+				PRODUCT_BUNDLE_IDENTIFIER = "caio.teste.gerador-randomico";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -312,7 +332,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "caio.teste.Gerador-Rando-mico";
+				PRODUCT_BUNDLE_IDENTIFIER = "caio.teste.gerador-randomico";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
